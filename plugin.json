@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tebar",
+  "version": "1.0.0",
+  "description": "Publish and schedule social media posts (Instagram, Threads, Facebook Pages, TikTok, YouTube, LinkedIn, X, Pinterest, Telegram, Discord), answer comments and Instagram DMs, and read post statistics through Tebar's official hosted MCP server.",
+  "author": {
+    "name": "PT Kirim Chat Indonesia",
+    "email": "halo@tebar.app",
+    "url": "https://tebar.app"
+  },
+  "homepage": "https://tebar.app",
+  "repository": "https://github.com/tebarapp/tebar-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tebar",
+    "social media",
+    "scheduling",
+    "instagram",
+    "threads",
+    "tiktok",
+    "indonesia",
+    "mcp",
+    "hermes-agent"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "tebar": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
